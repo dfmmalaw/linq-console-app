@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1AD52DCA-C55F-4F34-A71E-625EA39466F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B58F8F2F-B353-4B44-ADA9-0BDA87F4778E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LinqConsoleApp", "src\LinqConsoleApp\LinqConsoleApp.xproj", "{96E91C3F-F1C3-4626-BD16-2D7C6B0E39F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96E91C3F-F1C3-4626-BD16-2D7C6B0E39F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E91C3F-F1C3-4626-BD16-2D7C6B0E39F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E91C3F-F1C3-4626-BD16-2D7C6B0E39F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E91C3F-F1C3-4626-BD16-2D7C6B0E39F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96E91C3F-F1C3-4626-BD16-2D7C6B0E39F5} = {1AD52DCA-C55F-4F34-A71E-625EA39466F2}
+	EndGlobalSection
+EndGlobal
